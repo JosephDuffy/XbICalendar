@@ -13,14 +13,13 @@ fi
 
 
 # Select the desired iPhone SDK
-export SDKVER="9.1"
 export DEVROOT=`xcode-select --print-path`
 
 if [ "i386" = $ARCH ] || [ "x86_64" = $ARCH ]; then
-    export SDKROOT=$DEVROOT/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator${SDKVER}.sdk
+    export SDKROOT=$DEVROOT/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk
     export MIOS="-mios-simulator-version-min=7.1"
 else
-    export SDKROOT=$DEVROOT/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS${SDKVER}.sdk
+    export SDKROOT=$DEVROOT/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk
     export MIOS="-miphoneos-version-min=7.1"
 fi;
 export IOSROOT=$DEVROOT/Platforms/iPhoneOS.platform
@@ -51,7 +50,7 @@ fi
 
 echo "IOSROOT = $IOSROOT"
 
-# Set up relevant environment variables 
+# Set up relevant environment variables
 export CPPFLAGS="-arch $ARCH -I$SDKROOT/usr/include $MIOS --debug"
 export CFLAGS="$CPPFLAGS -pipe -no-cpp-precomp -isysroot $SDKROOT "
 export CXXFLAGS="$CFLAGS"
@@ -61,8 +60,8 @@ export LDFLAGS="-L$SDKROOT/usr/lib/ -arch $ARCH"
 export CLANG=$DEVROOT/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
 
 
-export CC=$CLANG
-export CXX=$CLANG++
+export CC="$CLANG -fembed-bitcode"
+export CXX="$CLANG++ -fembed-bitcode"
 export LD=$DEVROOT/usr/bin/ld
 export AR=$DEVROOT/usr/bin/ar
 export AS=$DEVROOT/usr/bin/as
@@ -91,7 +90,7 @@ then
 fi
 
 if [ -d $OUTPUT_DIR/$ARCH ]
-then 
+then
        rm -rf $OUTPUT_DIR/$ARCH
 fi
 
