@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D9992D4D1C18EC8B00092D51 /* XbICalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = D9992D3B1C18EC8B00092D51 /* XbICalendar.h */; };
-		D9992D4E1C18EC8B00092D51 /* XbICComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = D9992D3C1C18EC8B00092D51 /* XbICComponent.h */; };
+		D9992D4D1C18EC8B00092D51 /* XbICalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = D9992D3B1C18EC8B00092D51 /* XbICalendar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9992D4E1C18EC8B00092D51 /* XbICComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = D9992D3C1C18EC8B00092D51 /* XbICComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9992D4F1C18EC8B00092D51 /* XbICComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = D9992D3D1C18EC8B00092D51 /* XbICComponent.m */; };
-		D9992D501C18EC8B00092D51 /* XbICFile.h in Headers */ = {isa = PBXBuildFile; fileRef = D9992D3E1C18EC8B00092D51 /* XbICFile.h */; };
+		D9992D501C18EC8B00092D51 /* XbICFile.h in Headers */ = {isa = PBXBuildFile; fileRef = D9992D3E1C18EC8B00092D51 /* XbICFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9992D511C18EC8B00092D51 /* XbICFile.m in Sources */ = {isa = PBXBuildFile; fileRef = D9992D3F1C18EC8B00092D51 /* XbICFile.m */; };
-		D9992D521C18EC8B00092D51 /* XbICInvite.h in Headers */ = {isa = PBXBuildFile; fileRef = D9992D401C18EC8B00092D51 /* XbICInvite.h */; };
+		D9992D521C18EC8B00092D51 /* XbICInvite.h in Headers */ = {isa = PBXBuildFile; fileRef = D9992D401C18EC8B00092D51 /* XbICInvite.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9992D531C18EC8B00092D51 /* XbICInvite.m in Sources */ = {isa = PBXBuildFile; fileRef = D9992D411C18EC8B00092D51 /* XbICInvite.m */; };
-		D9992D541C18EC8B00092D51 /* XbICPerson.h in Headers */ = {isa = PBXBuildFile; fileRef = D9992D421C18EC8B00092D51 /* XbICPerson.h */; };
+		D9992D541C18EC8B00092D51 /* XbICPerson.h in Headers */ = {isa = PBXBuildFile; fileRef = D9992D421C18EC8B00092D51 /* XbICPerson.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9992D551C18EC8B00092D51 /* XbICPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = D9992D431C18EC8B00092D51 /* XbICPerson.m */; };
-		D9992D561C18EC8B00092D51 /* XbICProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = D9992D441C18EC8B00092D51 /* XbICProperty.h */; };
+		D9992D561C18EC8B00092D51 /* XbICProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = D9992D441C18EC8B00092D51 /* XbICProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9992D571C18EC8B00092D51 /* XbICProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = D9992D451C18EC8B00092D51 /* XbICProperty.m */; };
-		D9992D581C18EC8B00092D51 /* XbICVCalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = D9992D461C18EC8B00092D51 /* XbICVCalendar.h */; };
+		D9992D581C18EC8B00092D51 /* XbICVCalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = D9992D461C18EC8B00092D51 /* XbICVCalendar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9992D591C18EC8B00092D51 /* XbICVCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = D9992D471C18EC8B00092D51 /* XbICVCalendar.m */; };
-		D9992D5A1C18EC8B00092D51 /* XbICVEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = D9992D481C18EC8B00092D51 /* XbICVEvent.h */; };
+		D9992D5A1C18EC8B00092D51 /* XbICVEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = D9992D481C18EC8B00092D51 /* XbICVEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9992D5B1C18EC8B00092D51 /* XbICVEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = D9992D491C18EC8B00092D51 /* XbICVEvent.m */; };
-		D9992D5C1C18EC8B00092D51 /* XbICZoneDirectory.h in Headers */ = {isa = PBXBuildFile; fileRef = D9992D4A1C18EC8B00092D51 /* XbICZoneDirectory.h */; };
+		D9992D5C1C18EC8B00092D51 /* XbICZoneDirectory.h in Headers */ = {isa = PBXBuildFile; fileRef = D9992D4A1C18EC8B00092D51 /* XbICZoneDirectory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9992D5D1C18EC8B00092D51 /* XbICZoneDirectory.m in Sources */ = {isa = PBXBuildFile; fileRef = D9992D4B1C18EC8B00092D51 /* XbICZoneDirectory.m */; };
 		D9DAEC6E1C18DAEA0084383A /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 946E26ED1B0F7BA500418534 /* EventKitUI.framework */; };
 		D9DAEC6F1C18DAEA0084383A /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 946E26EB1B0F7B9600418534 /* EventKit.framework */; };
@@ -181,9 +181,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9992D5C1C18EC8B00092D51 /* XbICZoneDirectory.h in Headers */,
 				D9DAEC841C18DBB10084383A /* ical.h in Headers */,
-				D9DAEC861C18DBD60084383A /* libical_ical_export.h in Headers */,
+				D9992D5C1C18EC8B00092D51 /* XbICZoneDirectory.h in Headers */,
 				D9992D561C18EC8B00092D51 /* XbICProperty.h in Headers */,
 				D9992D4D1C18EC8B00092D51 /* XbICalendar.h in Headers */,
 				D9992D581C18EC8B00092D51 /* XbICVCalendar.h in Headers */,
@@ -192,6 +191,7 @@
 				D9992D4E1C18EC8B00092D51 /* XbICComponent.h in Headers */,
 				D9992D521C18EC8B00092D51 /* XbICInvite.h in Headers */,
 				D9992D541C18EC8B00092D51 /* XbICPerson.h in Headers */,
+				D9DAEC861C18DBD60084383A /* libical_ical_export.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
