@@ -1,3 +1,5 @@
+This fork is unmaintained. Please check https://github.com/minddistrict/XbICalendar/tree/compile-to-framework-without-updating-libical for a more up-to-date fork that compiles to a framework
+
 XbICalendar Framework
 ===========
 
